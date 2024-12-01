@@ -61,4 +61,4 @@ subnet 10.3.1.0 netmask 255.255.255.0 {
     option domain-name-servers 1.1.1.1
 }
 ```
-
+Une fois la configuration du DHCP en place, la machine pc4 présente dans le vlan 10 à pu recevoir une adresse IP du DHCP, tandis que la machine pc5 présente dans le vlan 20 n'a pas réussi à joindre le DHCP.
